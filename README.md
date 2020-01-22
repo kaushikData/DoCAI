@@ -12,7 +12,7 @@ The goal of building question answering model in DoCAI is to find the text for a
 The initial step is to convert the SQuAD JSON data into Pandas Dataframe. 
 
 ### STEP 2:
-The second step is to convert tokens into word embeddings.
+The second step is to preprocess text and convert tokens into word embeddings.
 
 ### STEP 3:
 This is the final step. In this stage, multiple neural machine comprehension question answer models are developed using RNN, LSTM, Transformers and BERT etc.
