@@ -15,7 +15,7 @@ For question answering chatbot, I am using Stanford Question Answering Dataset (
 It is very important to understand the dataset and visualize insights in data before building the model.
 Please run the Dataset Analysis notebook to pre-process data and analyze insights from the dataset.
 
-*** open Dataset Analysis.ipny ***
+*** open Dataset Analysis.ipnb ***
 
 #### STEP 1:
 The initial step is to convert the SQuAD JSON data into Pandas Dataframe and convert tokens into word embeddings (pretrained GloVe embeddings) and character embeddings.
