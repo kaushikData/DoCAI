@@ -8,6 +8,11 @@ DoCAI (Document Conversational AI) is an AI-powered document analyzing tool and 
 
 The goal of building question answering model in DoCAI is to find the text for any new question and context provided. The answer to a question in SQuAD is always a part of the context and also a continuous span of context. 
 
+### STEP 0:
+
+It is very important to understand the dataset and visualize insights in data before building the model.
+Please run Dataset Analysis notebook to pre-process data and analyze insights from dataset.
+
 ### STEP 1:
 The initial step is to convert the SQuAD JSON data into Pandas Dataframe. 
 
