@@ -6,7 +6,7 @@ DoCAI (Document Conversational AI) is an AI-powered document analyzing tool and 
 
 ## Question Answer Bot:
 
-The very important component of DoCAI is the Question Answer chatbot. Given a document or context, the bot will answer for the respective question from the document.
+The very important component of DoCAI is the Question Answer chatbot. Given a document or context, the bot answers questions asked by user from documents.
 
 For question answering chatbot, I am using Stanford Question Answering Dataset (SQuAD).
 
