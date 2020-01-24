@@ -1,7 +1,5 @@
 """Pre-process SQuAD and Download GloVe.
 
-b.com/HKUST-KnowComp/R-Net/blob/master/prepro.py
-
 Code inspired from:
     Chris Chute (chute@stanford.edu)
 """
