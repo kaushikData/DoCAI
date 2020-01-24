@@ -23,7 +23,10 @@ The initial step is to convert the SQuAD JSON data into Pandas Dataframe and con
 *** python pre-process.py ***
 
 #### STEP 2:
-The second step is to preprocess text and convert tokens into word embeddings.
+I have choosed Bidirectional Attention Flow architecture for building the Question Answer baseline model. BiDAF takes advantage of attention mechanism to the encoded sequence. 
+
+The hyperparameters for this training the model are:
+![categories Logo](/Images/hyperparameters.png)
 
 #### STEP 3:
 This is the final step. In this stage, multiple neural machine comprehension question answer models are developed using RNN, LSTM, Transformers and BERT etc.
