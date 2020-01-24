@@ -1,15 +1,4 @@
-"""Test a model and generate submission CSV.
 
-Usage:
-    > python test.py --split SPLIT --load_path PATH --name NAME
-    where
-    > SPLIT is either "dev" or "test"
-    > PATH is a path to a checkpoint (e.g., save/train/model-01/best.pth.tar)
-    > NAME is a name to identify the test run
-
-Author:
-    Chris Chute (chute@stanford.edu)
-"""
 
 import csv
 import torch
