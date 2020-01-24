@@ -6,12 +6,14 @@ DoCAI (Document Conversational AI) is an AI-powered document analyzing tool and 
 
 ## Question Answer Bot:
 
-It is very important to understand the dataset and visualize insights in data before building the model. Please run the Dataset Analysis notebook to pre-process data and analyze insights from the dataset. 
+The very important component of DoCAI is the Question Answer chatbot. Given a document or context, the bot will answer for the respective question from the document.
+
+For question answering chatbot, I am using Stanford Question Answering Dataset (SQuAD).
 
 ### STEP 0:
 
 It is very important to understand the dataset and visualize insights in data before building the model.
-Please run Dataset Analysis notebook to pre-process data and analyze insights from dataset.
+Please run the Dataset Analysis notebook to pre-process data and analyze insights from the dataset.
 
 ### STEP 1:
 The initial step is to convert the SQuAD JSON data into Pandas Dataframe. 
