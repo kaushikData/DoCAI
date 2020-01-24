@@ -1,8 +1,3 @@
-"""Command-line arguments for setup.py, train.py, test.py.
-
-Author:
-    Chris Chute (chute@stanford.edu)
-"""
 
 import argparse
 
