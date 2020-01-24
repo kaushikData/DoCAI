@@ -16,7 +16,8 @@ It is very important to understand the dataset and visualize insights in data be
 Please run the Dataset Analysis notebook to pre-process data and analyze insights from the dataset.
 
 ### STEP 1:
-The initial step is to convert the SQuAD JSON data into Pandas Dataframe. 
+The initial step is to convert the SQuAD JSON data into Pandas Dataframe and convert tokens into word embeddings (pretrained GloVe embeddings) and character embeddings.
+*** python pre-process.py ***
 
 ### STEP 2:
 The second step is to preprocess text and convert tokens into word embeddings.
